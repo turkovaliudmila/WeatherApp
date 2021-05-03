@@ -1,10 +1,9 @@
-package ru.geekbrains.weatherapp
+package ru.geekbrains.weatherapp.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import ru.geekbrains.weatherapp.R
 import ru.geekbrains.weatherapp.databinding.MainActivityBinding
-import ru.geekbrains.weatherapp.databinding.MainFragmentBinding
-import ru.geekbrains.weatherapp.ui.main.MainFragment
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: MainActivityBinding

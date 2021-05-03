@@ -1,4 +1,4 @@
-package ru.geekbrains.weatherapp.ui.main
+package ru.geekbrains.weatherapp.view
 
 import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
@@ -12,6 +12,7 @@ import androidx.lifecycle.Observer
 import com.google.android.material.snackbar.Snackbar
 import ru.geekbrains.weatherapp.model.AppState
 import ru.geekbrains.weatherapp.model.Weather
+import ru.geekbrains.weatherapp.viewmodel.MainViewModel
 
 class MainFragment : Fragment() {
 
